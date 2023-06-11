@@ -1,0 +1,88 @@
+CREATE MOTORCYCLE SHOP DATABASE 06/10/23
+
+/** tires
+goodyear(5)
+bridgestone(5)
+**/
+
+CREATE TABLE tires (name TEXT, price NUMERIC, quantity INTEGER);
+
+INSERT INTO tires VALUES  ("goodyear" , 80.25 , 20);
+INSERT INTO tires VALUES ("bridgestone" , 95.50 , 5);
+
+
+/** helments
+icon(10)
+offbrand(10)
+**/
+
+CREATE TABLE helments (name TEXT, price NUMERIC, quantity INTEGER);
+
+INSERT INTO helments VALUES ("icon", 100 , 10);
+INSERT INTO helments VALUES ("offbrand", 75 , 10);
+
+/** shoes
+fox
+alpine
+rev
+wp
+**/
+
+CREATE TABLE shoes (name TEXT, price NUMERIC, size INTEGER, quantity INTEGER);
+
+INSERT INTO shoes VALUES ("fox", 125 , 10.5 , 10);
+INSERT INTO shoes VALUES ("alpine", 90 , 11 , 12);
+INSERT INTO shoes VALUES ("rev", 89.99 , 12 , 8);
+INSERT INTO shoes VALUES ("wp", 75 , 9 , 20);
+
+/** gloves
+fox
+alpine
+joe rocket
+highway 21
+**/
+
+CREATE TABLE gloves (name TEXT, price NUMERIC, size TEXT, quantity INTEGER);
+
+INSERT INTO gloves VALUES ("fox", 50 , "large", 20);
+INSERT INTO gloves VALUES ("alpine", 69.99 , "medium", 32);
+INSERT INTO gloves VALUES ("joe rocket", 35 , "extra large", 10);
+INSERT INTO gloves VALUES ("highway 21", 80 , "small", 15);
+
+/** oil
+castrol 5w20
+mobil 1 5w30 
+pennzoil 5w40
+**/
+
+CREATE TABLE oil (name TEXT, price NUMERIC, weight REAL, quantity INTEGER);
+
+INSERT INTO oil VALUES ("castrol", 19.99 , 520 , 25);
+INSERT INTO oil VALUES ("mobil 1", 24.99 , 530 , 20);
+INSERT INTO oil VALUES ("pennzoil", 29.99 , 540 , 35);
+
+/** jackets
+dainese
+belstaff
+richa
+**/
+
+CREATE TABLE jackets (names TEXT, price NUMERIC, size TEXT, quantity INTEGER);
+
+INSERT INTO jackets VALUES ("dainese", 375 , "xl" , 10);
+INSERT INTO jackets VALUES ("belstaff", 500 , "large" , 15);
+INSERT INTO jackets VALUES ("richa", 425 , "medium" , 15);
+
+/** tshirts
+white
+black
+green
+blue
+**/
+
+CREATE TABLE tshirts ( name TEXT, price NUMERIC, size TEXT, quantity INTEGER);
+
+INSERT INTO tshirts VALUES ("white", 20 , "large" , 30);
+INSERT INTO tshirts VALUES ("black", 15 , "extra large" , 27);
+INSERT INTO tshirts VALUES ("green", 35 , "medium" , 10);
+INSERT INTO tshirts VALUES ("blue", 27 , "small" , 11);
